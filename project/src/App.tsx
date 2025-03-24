@@ -4,6 +4,7 @@ import type React from "react"
 import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 import Typed from "typed.js"
+import myPhoto from "./photo.jpg"
 
 // Define proper TypeScript interfaces
 interface ProjectDetail {
@@ -457,7 +458,7 @@ function App() {
               transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
             >
               <div className="w-full h-full rounded-full overflow-hidden">
-                <img src="/src/photo.jpg" alt="Sasanka Gayathra" className="w-full h-full object-cover" />
+                <img src={myPhoto} alt="Sasanka Gayathra" className="w-full h-full object-cover" />
               </div>
             </motion.div>
           </motion.div>
