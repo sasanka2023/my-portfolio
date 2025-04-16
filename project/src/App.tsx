@@ -488,7 +488,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <AnimatedCounter
-              value={3}
+              value={2}
               title="Years Experience"
               icon={
                 <svg
@@ -508,7 +508,7 @@ function App() {
               }
             />
             <AnimatedCounter
-              value={15}
+              value={4}
               title="Projects Completed"
               icon={
                 <svg
